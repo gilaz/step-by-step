@@ -1,0 +1,25 @@
+hash: f4cd5ff971602fbf48c13e095da46cb984b6185768f65abc0da9fda6a4167afd
+updated: 2018-03-31T00:53:14.504015932+03:00
+imports:
+- name: github.com/k8s-community/handlers
+  version: 38a673f26616c3a99a720e13fa0eb7ebe0b4ca5d
+  subpackages:
+  - info
+- name: github.com/k8s-community/utils
+  version: f2f61fbfdc7002ad21033e11b7cca6bbb43cd2f0
+  subpackages:
+  - shutdown
+- name: github.com/Sirupsen/logrus
+  version: c155da19408a8799da419ed3eeb0cb5db0ad5dbc
+- name: github.com/takama/router
+  version: 0db9d28f71e2a29c7b82ea6a0851bb0dedeaf744
+- name: golang.org/x/crypto
+  version: 12892e8c234f4fe6f6803f052061de9057903bb2
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: 378d26f46672a356c46195c28f61bdb4c0a781dd
+  subpackages:
+  - unix
+  - windows
+testImports: []

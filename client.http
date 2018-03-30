@@ -1,0 +1,10 @@
+@host = http://127.0.0.1:8000
+
+### Home
+GET {{host}}/
+
+### Healthcheck
+GET {{host}}/hearthz
+
+### Version
+GET {{host}}/info
